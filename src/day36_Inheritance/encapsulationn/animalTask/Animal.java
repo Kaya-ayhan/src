@@ -14,6 +14,17 @@ public class Animal {
         this.age = age;
     }
 
+    public String toString() {
+        return "Animal{" +
+                "name='" + name + '\'' +
+                ", breed='" + breed + '\'' +
+                ", size='" + size + '\'' +
+                ", color='" + color + '\'' +
+                ", gender=" + gender +
+                ", age=" + age +
+                '}';
+    }
+
     public void eat() {
         System.out.println(name + " is eating");
     }
