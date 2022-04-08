@@ -34,5 +34,6 @@ public class AmazonInc {
         for(Developer developer: scrumteam.developers){
             System.out.println(developer.name+" : " + developer.salary);
         }
+        System.out.println("-------------------");
     }
 }
